@@ -1,0 +1,30 @@
+.SearchBarInput {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 30%;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #0CC0DF;
+    background-color: #1C1C1C;
+}
+
+.SearchBarInput::placeholder {
+    color: #0CC0DF;
+}
+
+@media (min-width: 100px) and (max-width: 499px) {
+    .SearchBarInput {
+        position: fixed;
+        top: 15vh;
+        left: 10%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1079px) {
+    .SearchBarInput {
+        width: 50%;
+    }
+}
