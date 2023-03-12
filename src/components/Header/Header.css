@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 1079px) {
+    .Header {
+        height: 20vh;
+    }
+
     .HeaderNavMobile {
         display: flex;
         justify-content: center;
