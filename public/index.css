@@ -38,8 +38,8 @@ body {
     border-radius: 2rem;
 }
 
-@media (min-width: 100px) and (max-width: 499px) {
+@media (min-width: 100px) and (max-width: 579px) {
     .AreaGames {
-        height: 70vh;
+        height: 74vh;
     }
 }

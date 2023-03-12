@@ -14,17 +14,20 @@
     color: #0CC0DF;
 }
 
-@media (min-width: 100px) and (max-width: 499px) {
+@media (min-width: 100px) and (max-width: 579px) {
     .SearchBarInput {
         position: fixed;
-        top: 15vh;
+        top: 20vh;
         left: 10%;
         width: 80%;
     }
 }
 
-@media (min-width: 500px) and (max-width: 1079px) {
+@media (min-width: 580px) and (max-width: 1079px) {
     .SearchBarInput {
+        position: absolute;
+        top: 14vh;
+        left: 25%;
         width: 50%;
     }
 }
