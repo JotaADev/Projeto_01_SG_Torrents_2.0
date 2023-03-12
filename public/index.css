@@ -6,8 +6,11 @@
     color: #FFFFFF;
 }
 
-body {
-    background-color: #000000;
+html {
     height: 100vh;
 }
 
+body {
+    background-color: #000000;
+    min-height: 100%;
+}
