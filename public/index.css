@@ -38,6 +38,36 @@ body {
     border-radius: 2rem;
 }
 
+.BoxPages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnPages, .BtnPagesNext, .BtnPagesPrevious {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: #1C1C1C;
+    color: #0CC0DF;
+}
+
+.BtnPages:hover, .BtnPagesNext:hover, .BtnPagesPrevious:hover {
+    cursor: pointer;
+    background-color: #363636;
+}
+
+.BtnPagesPrevious {
+    width: 4rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.BtnPagesNext {
+    width: 4rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
 @media (min-width: 100px) and (max-width: 579px) {
     .AreaGames {
         height: 74vh;
