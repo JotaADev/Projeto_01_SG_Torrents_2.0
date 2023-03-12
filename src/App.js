@@ -89,7 +89,7 @@ function App() {
     <>
       <Header/>
       <section className="AreaGames">
-        {paginas[paginaAtual].map((game) => (
+        {paginas[paginaAtual]?.map((game) => (
           <CardGame
             key={game.id}
             img={game.gameimg}
