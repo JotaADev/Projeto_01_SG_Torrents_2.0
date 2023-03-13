@@ -68,8 +68,62 @@ body {
     border-radius: 0 1rem 1rem 0;
 }
 
+.TermosDeUso {
+    display: flex;
+    justify-content: center;
+}
+
+.TermosDeUsoContent {
+    width: 80%;
+}
+
+.TermosDeUsoContent h1 {
+    font-size: 2rem;
+    color: #0CC0DF;
+    margin: 4rem 0 4rem 0;
+}
+
+.TermosDeUsoContent p {
+    text-align: justify;
+}
+
+.Categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.Categorias a {
+    text-decoration: none;
+}
+
+.Categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 10rem;
+    background-color: #1C1C1C;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.Categoria:hover {
+    background-color: #0CC0DF;
+    cursor: pointer;
+}
+
 @media (min-width: 100px) and (max-width: 579px) {
     .AreaGames {
+        height: 70vh;
+    }
+
+    .Categorias {
         height: 70vh;
     }
 }

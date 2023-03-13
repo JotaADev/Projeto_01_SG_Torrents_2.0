@@ -1,0 +1,72 @@
+[
+{
+    "id_categoria": "1",
+    "cat": "acao",
+    "nome_cat": "Ação"
+},
+{
+    "id_categoria": "2",
+    "cat": "anime",
+    "nome_cat": "Anime"
+},
+{
+    "id_categoria": "3",
+    "cat": "aventura",
+    "nome_cat": "Aventura"
+},
+{
+    "id_categoria": "4",
+    "cat": "caca",
+    "nome_cat": "Caça"
+},
+{
+    "id_categoria": "5",
+    "cat": "corrida",
+    "nome_cat": "Corrida"
+},
+{
+    "id_categoria": "6",
+    "cat": "esporte",
+    "nome_cat": "Esporte"
+},
+{
+    "id_categoria": "7",
+    "cat": "estrategia",
+    "nome_cat": "Estratégia"
+},
+{
+    "id_categoria": "8",
+    "cat": "guerra",
+    "nome_cat": "Guerra"
+},
+{
+    "id_categoria": "9",
+    "cat": "indie",
+    "nome_cat": "Indie"
+},
+{
+    "id_categoria": "10",
+    "cat": "luta",
+    "nome_cat": "Luta"
+},
+{
+    "id_categoria": "11",
+    "cat": "rpg",
+    "nome_cat": "RPG"
+},
+{
+    "id_categoria": "12",
+    "cat": "simulacao",
+    "nome_cat": "Simulação"
+},
+{
+    "id_categoria": "13",
+    "cat": "terror",
+    "nome_cat": "Terror"
+},
+{
+    "id_categoria": "14",
+    "cat": "tiro",
+    "nome_cat": "Tiro"
+}
+]
