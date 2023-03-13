@@ -96,6 +96,19 @@ body {
     height: 80vh;
 }
 
+.Categorias::-webkit-scrollbar {
+    width: 6px;
+}
+
+.Categorias::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+.Categorias::-webkit-scrollbar-thumb {
+    background-color: #0CC0DF;
+    border-radius: 2rem;
+}
+
 .Categorias a {
     text-decoration: none;
 }
@@ -123,6 +136,19 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+}
+
+.GameView::-webkit-scrollbar {
+    width: 6px;
+}
+
+.GameView::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+.GameView::-webkit-scrollbar-thumb {
+    background-color: #0CC0DF;
+    border-radius: 2rem;
 }
 
 .GameViewContent {
