@@ -118,6 +118,72 @@ body {
     cursor: pointer;
 }
 
+.GameView {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.GameViewContent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 60vh;
+}
+
+.GameViewImage {
+    width: 20%;
+    border-radius: 1rem;
+    margin-right: 4rem;
+}
+
+.GameViewInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.GameViewInfos h1 {
+    font-size: 3rem;
+    color: #0CC0DF;
+}
+
+.GameViewInfos button {
+    width: 50%;
+    height: 2.5rem;
+    background-color: #1C1C1C;
+    color: #0CC0DF;
+    border-radius: 1rem;
+    border: none;
+}
+
+.GameViewInfos button:hover {
+    cursor: pointer;
+    background-color: #0CC0DF;
+    color: #000000;
+}
+
+.GameInstructions {
+    padding: 0 6% 0 6%;
+}
+
+.GameInstructions p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.GameInstructions p a {
+    text-decoration: none;
+    color: #0CC0DF;
+}
+
+.GameInstructions ul {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
 @media (min-width: 100px) and (max-width: 579px) {
     .AreaGames {
         height: 70vh;
@@ -125,5 +191,45 @@ body {
 
     .Categorias {
         height: 70vh;
+    }
+
+    .GameView {
+        height: 70vh;
+    }
+
+    .GameViewContent {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .GameViewImage {
+        width: 50%;
+        border-radius: 1rem;
+        margin: 0 25% 0 25%;
+    }
+
+    .GameViewInfos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .GameViewInfos h1 {
+        font-size: 3rem;
+        color: #0CC0DF;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .GameViewInfos button {
+        width: 70%;
+        height: 2.5rem;
+        background-color: #1C1C1C;
+        color: #0CC0DF;
+        border-radius: 1rem;
+        border: none;
+        margin-top: 2rem;
     }
 }

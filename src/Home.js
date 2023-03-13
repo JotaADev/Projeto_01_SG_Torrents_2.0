@@ -84,23 +84,25 @@ const Home = () => {
             </div>
         );
     }
-  return (
-    <>
-        <Header/>
-        <section className="AreaGames">
-            {paginas[paginaAtual]?.map((game) => (
-            <CardGame
-                key={game.id}
-                img={game.gameimg}
-                nomejogo={game.nomejogo}
-                tamanho={game.tamanhojogo}
-                linkdownload={game.linkdownload}
-            />
-            ))}
-            <Paginacao/>
-        </section>
-    </>
-  )
+
+    return (
+        <>
+            <Header/>
+            <section className="AreaGames">
+                {paginas[paginaAtual]?.map((game) => (
+                <CardGame
+                    key={game.id}
+                    jogo={game.nomejogo}
+                    img={game.gameimg}
+                    nomejogo={game.nomejogo}
+                    tamanho={game.tamanhojogo}
+                    linkdownload={game.linkdownload}
+                />
+                ))}
+                <Paginacao/>
+            </section>
+        </>
+    )
 }
 
 export default Home

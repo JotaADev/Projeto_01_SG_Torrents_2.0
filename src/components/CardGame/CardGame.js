@@ -1,14 +1,14 @@
 import React from 'react'
 import './CardGame.css'
 
-const CardGame = ({img, nomejogo, tamanho, linkdownload}) => {
+const CardGame = ({jogo, img, nomejogo, tamanho, linkdownload}) => {
   function btnDownload() {
     window.open(linkdownload)
   }
 
   return (
     <>
-      <a className='CardGameLink' href='/'>
+      <a className='CardGameLink' href={jogo}>
         <div className='CardGame'>
           <div>
             <img className='CardGameImg' src={img} width='100%' height='100%'></img>

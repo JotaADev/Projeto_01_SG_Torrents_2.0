@@ -2,6 +2,7 @@ import React from 'react';
 import Categorias from './Categorias';
 import TermosDeUso from './TermosDeUso';
 import Home from './Home';
+import Game from './Game';
 
 function App() {
   function carregaPagina() {
@@ -13,6 +14,8 @@ function App() {
         return <Categorias/>
       case '/Termos%20de%20Uso':
         return <TermosDeUso/>
+      case pagina:
+        return <Game/>
     }
   }
 
