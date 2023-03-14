@@ -27,7 +27,7 @@ const SearchBar = () => {
     return(
       <div className='SearchBarResult'>
         {searchResults.map((game) => (
-          <a key={game.id} href='/'>
+          <a key={game.id} href={game.nomejogo}>
             <div>
               <h4>{game.nomejogo}</h4>
             </div>
